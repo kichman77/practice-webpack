@@ -53,11 +53,11 @@ function createItem(data) {
     const published = document.createElement("p");
     published.textContent = obj.published;
     const source = document.createElement("p");
-    source.textContent = obj.source.name
+    source.textContent = obj.source.name;
     published.textContent = obj.published;
     const item = document.createElement("li");
     item.append(link, content, author, published, source);
-    list.after(item);
+    list.append(item);
   })
 }
 

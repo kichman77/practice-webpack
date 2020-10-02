@@ -2,3 +2,6 @@ body {
   background-color: black;
   color: wheat;
 }
+ul {
+  list-style: none;
+}
